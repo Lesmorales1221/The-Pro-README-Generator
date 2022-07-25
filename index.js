@@ -4,7 +4,24 @@ let fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = [];
+inquirer
+    .prompt([
+        {
+            type: "input",
+            message:"What will the title of your project be?",
+            n,ame: "title"
+        },
+        {
+            type: "input",
+            message: "Enter description of your project:",
+            name: "description"
+        },
+        {
+            type: "input",
+            message: "Enter installation instruction as a comma seperated list:",
+            name: "install"
+        },
+    ])
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
