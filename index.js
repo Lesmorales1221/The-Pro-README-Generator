@@ -27,6 +27,11 @@ inquirer
             message: "Enter the contribution guidelines for your project:",
             name: "contribution"
         },
+        {
+            type: "input",
+            message: "Enter the usage information for you project:",
+            name:"usage"
+        },
     ])
 
 // TODO: Create a function to write README file
