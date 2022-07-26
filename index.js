@@ -32,6 +32,12 @@ inquirer
             message: "Enter the usage information for you project:",
             name:"usage"
         },
+        {
+            type: "input",
+            message: "Enter your GitHub username:",
+            name: "github"
+        },
+        
     ])
 
 // TODO: Create a function to write README file
