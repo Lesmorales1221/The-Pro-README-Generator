@@ -42,7 +42,21 @@ inquirer
             message: "Enter your email address:",
             name: "email"
         },
-        
+        {
+            type:"list",
+            message: "Which license does this project fall under?",
+            name: "license",
+            choices: [
+                "MIT License",
+                "Code Project open License (CPOL)",
+                "Common Development and Distribution License (CDDL)",
+                "Microsoft Public License (Ms-PL)",
+                "Mozilla Public License 1.1 (MPL 1.1)",
+                "Common Public License Version 1.0 (CPL)",
+                "Eclipse Public License 1.0",
+                "Apache License, Version 2.0"
+            ]
+        }
     ])
 
 // TODO: Create a function to write README file
