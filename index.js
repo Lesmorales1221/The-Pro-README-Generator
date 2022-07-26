@@ -37,6 +37,11 @@ inquirer
             message: "Enter your GitHub username:",
             name: "github"
         },
+        {
+            type: "input",
+            message: "Enter your email address:",
+            name: "email"
+        },
         
     ])
 
